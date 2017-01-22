@@ -1,9 +1,9 @@
 #include "button.h"
 
 void initButton() {
-	DDRC &= ~(1 << PORTC5) ;
+	DDRA &= ~(1 << PORTA3);
 }
 
 int isPressed() {
-	return PINC & (1<<PORTC5);
+	return PINA & (1<<PORTA3);
 }

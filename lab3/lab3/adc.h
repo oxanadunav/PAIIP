@@ -3,6 +3,5 @@
 
 void initADC();
 int getData();
-void toVoltage(int t);
 
 #endif /* ADC_H_ */

@@ -1,13 +1,13 @@
 #include "led.h"
 
 void initLed() {
-	DDRA |= (1 << PORTA0); 
+	DDRD |= (1 << PORTD6);
 }
 
 void ledOn() {
-	PORTA |= (1 << PORTA0); 
+	PORTD |= (1 << PORTD6);
 }
 
 void ledOff() {
-	PORTA &= ~(1 << PORTA0);
+	PORTD &= ~(1 << PORTD6);
 }
