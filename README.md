@@ -10,3 +10,5 @@ Write a program for the microcontroller, that will communicate with a temperatur
 Write a program that will read data from a button press and rotate the motor either clockwise or counterclockwise.
 ## Laboratory work 5
 Write a program that will turn on and off a set of LEDS, one at a time.
+## Laboratory work 6
+Simple electronic voting system
