@@ -4,6 +4,7 @@
 
 void init_led() {
 	DDRA |= 0xFF;
+	PORTA = 0x00;
 }
 
 void turn_on(uint32_t pin) {
